@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(to right, #4E61CC, #3A4899);
+}
+
+.cabecario {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container {
+    background: transparent;
+    margin: 0 520px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    padding-top: 10px;
+    height: 172px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+#valor1 {
+    background-color: #919BD5;
+    color: #1D244D;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    width: 30%;
+    height: 50px;
+}
+
+#valor2 {
+    background-color: #919BD5;
+    color: #1D244D;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    width: 30%;
+    height: 50px;
+}
+
+
+#seletor {
+    background-color: #919BD5;
+    color: #1D244D;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    width: 30%;
+    height: 50px;
+}
+
+button {
+    background-color: #1D244D;
+    color: #919BD5;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    width: 60%;
+    height: 40px;
+    margin-left: 125px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #919BD5;
+    color: #1D244D;
+    transition: 1s;
+}
+
+
+#resultado {
+    margin-left: 150px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #919BD5;
+}
+
+p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}

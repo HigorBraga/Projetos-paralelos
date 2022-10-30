@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header class="cabecario">
+        <h1>Calculadora Simples</h1>
+    </header>
+    <main class="container">
+        <div id="formulario">
+            <select name="seletor" id="seletor">
+                <option value="+">Somar</option>
+                <option value="-">Subtrair</option>
+                <option value="/">Dividir</option>
+                <option value="*">Multiplicar</option>
+            </select>
+            <input  id="valor1" type="number" placeholder="Primeiro valor">
+            <input id="valor2" type="number" placeholder="Segundo valor"><br><br>
+            <button onclick="calcular()">Calcular</button>
+            <section>
+                <h3 id="resultado">Resultado: </h3>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Feito por Hbraga</p>
+    </footer>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
