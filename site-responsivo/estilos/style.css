@@ -1,0 +1,343 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Playfair+Display:ital,wght@0,400;0,900;1,400&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    cor0 = #A473D9;
+    cor1 = #8034D1;
+    cor2 = #61289E;
+    cor3 = #321452;
+    cor4 = #4B4354;
+    cor5 = white;
+    cor6 = black;
+
+*/
+
+
+
+
+/*
+font-family: 'Playfair Display', serif;
+
+*/
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #1c1c1c;
+    background-color: #4B4354;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Asap', sans-serif;
+    color: #000000;
+}
+
+
+.botao {
+    color: #be93ec;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #8034D1;
+    font-size: .9em;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+
+.botao:hover {
+    background-color: #be93ec;
+    color: #61289E;
+    transition: 1s;
+}
+
+/* Configurações do Menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, #A473D9, #8034D1);
+}
+
+
+.menu > a{
+    font-family: 'Yellowtail', cursive;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 32px;
+    color: #61289E;
+}
+
+
+#menu-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+
+#menu-itens li {
+    text-align: center;
+    width: 100%;
+}
+
+
+#menu-itens li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #be93ec;
+    transition: 1s;
+}
+
+
+#menu-itens li a:hover {
+    background-color: #be93ec;
+    color: #61289E;
+    transition: 1s;
+}
+/* Configurações do Menu */
+
+
+/* Configurações do Cabecario */
+#cabecario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../imagens/camera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#cabecario  h1 {
+    color: #ffffff;
+}
+
+
+#cabecario p {
+    margin-bottom: 2em;
+}
+/* Configurações do Cabecario */
+
+
+/* Configurações do Sobre */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-image: linear-gradient(to top, #A473D9, #8034D1);
+    color: white;
+}
+
+
+#sobre h2 {
+    color: white;
+}
+
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+/* Configurações do Sobre */
+
+
+/* Configurações do Serviços */
+#serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+
+#serviços picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+/* Configurações do Serviços */
+
+
+/* Configurações das Fotos */
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+#fotos h2 {
+    margin-bottom: 20px;
+}
+
+
+#fotos img {
+    width: 100%;
+}
+/* Configurações das Fotos */
+
+
+/* Configurações do Contato */
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contato h2 {
+    color: black;
+}
+
+
+.contato p {
+    padding: 20px;
+}
+/* Configurações do Contato */
+
+
+/* Configurações do Rodapé */
+#rodape {
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to top, #A473D9, #8034D1);
+    color: #4B4354;
+}
+
+
+#rodape a {
+    text-decoration: none;
+    color: #A473D9;
+    transition: 1s;
+}
+
+
+#rodape a:hover {
+    background-color: #be93ec;
+    color: #61289E;
+    transition: 1s;
+}
+/* Configurações do Rodapé */
+
+
+/* Configurações da Responsividade */
+@media screen and (min-width: 768px){
+
+    /* Configurações do Menu */
+    .menu {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+    #menu-itens {
+        flex-direction: row;
+        width: 70%;
+    }
+    /* Configurações do Menu */
+
+
+    /* Configurações do Cabecario */
+    #cabecario {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    /* Configurações do Cabecario */
+
+
+    /* Configurações do Sobre */
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+    /* Configurações do Sobre */
+
+
+    /* Configurações do Serviços */
+    #serviços {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+
+    #serviços h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+
+    #serviços picture {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    /* Configurações do Serviços */
+
+
+    /* Configurações das Fotos */
+    #fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    #fotos h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+
+    #fotos img {
+        width: 33%;
+    }
+    /* Configurações das Fotos */
+
+
+    /* Configurações do Contato */
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
+    #contato h2,
+    #contato p {
+        width: 100%;
+    }
+    /* Configurações do Contato */
+}
+
+/* Configurações da Responsividade */
