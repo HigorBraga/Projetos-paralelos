@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+        }
+
+
+        #sessao1 {
+            background-color: lightblue;
+        }
+
+
+        #sessao2 {
+            background-color: lightgreen;
+        }
+
+
+        #sessao3 {
+            background-color: lightpink;
+            width: 100px;
+        }
+
+
+        #sessao4 {
+            background-color: lightgrey;
+            flex: 1;
+        }
+
+
+        main {
+            padding-bottom: 1000px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+
+        .container3{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+        }
+
+
+        #sessao5 {
+            background-color: lightgreen;
+            width: 100px;
+        }
+
+
+        #sessao6 {
+            background-color: lightsalmon;
+            width: 100px;
+        }
+
+
+        #sessao7 {
+            background-color: lightskyblue;
+            width: 100px;
+        }
+
+
+        .container4{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            margin-top: 30px;
+        }
+
+
+        #sessao5 {
+            background-color: lightgreen;
+            width: 100px;
+        }
+
+
+        #sessao6 {
+            background-color: lightsalmon;
+            width: 100px;
+        }
+
+
+        #sessao7 {
+            background-color: lightskyblue;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article class="container">
+            <section id="sessao1">Sessão 1 text</section>
+            <section id="sessao2">Sessão 2 <p>text</p></section>
+        </article>
+
+        <article class="container">
+            <section id="sessao3">100px</section>
+            <section id="sessao4">flex: 1</section>
+        </article>
+        <hr><br><br>
+        <article class="container3">
+            <section id="sessao6">100px</section>
+            <section id="sessao5">100px</section>
+            <section id="sessao7">100px</section>
+        </article>
+        <article class="container4">
+            <section id="sessao6">100px</section>
+            <section id="sessao5">100px</section>
+            <section id="sessao7">100px</section>
+        </article>
+    </main>
+</body>
+</html>

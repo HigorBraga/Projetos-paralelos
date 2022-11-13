@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Position Practice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                height: 3000px;
+                background-color: white;
+                padding-top: 60px;
+                padding-left: 80px;
+            }
+
+            header {
+                background-color: black;
+                color: white;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                height: 50px;
+                z-index: 100;
+            }
+
+            .primeira {
+                background-color: lightblue;
+                height: 200px;
+                width: 200px;
+                position: static;
+            }
+
+            .segunda {
+                background-color: lightpink;
+                height: 200px;
+                width: 200px;
+                position: relative;
+            }
+
+            #absolutes {
+                position: absolute;
+                background-color: black;
+                color: white;
+                bottom: 10px;
+                right: 10px;
+            }
+
+            #sidebar {
+                background-color: green;
+                color: white;
+                position: fixed;
+                top: 3.125rem;
+                left: 0rem;
+                bottom: 0rem;
+                width: 4.5rem;
+            }
+
+            #absolute {
+                position: absolute;
+                background-color: rgb(209, 52, 52);
+                color: white;
+                top: 60px;
+                right: 10px;
+            }
+
+            #absolutex {
+                position: absolute;
+                background-color: rgb(209, 52, 52);
+                color: white;
+                top: 0px;
+                right: 0px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            header
+        </header>
+        <main>
+            <section class="primeira">
+                section1
+            </section>
+            <section class="segunda">
+                section2
+                <aside id="absolutes">
+                    5:00
+                </aside>
+            </section>
+        </main>
+        <aside id="absolute">
+            absolute
+        </aside>
+        <aside id="sidebar">
+            sidebar
+            <aside id="absolutex">
+                X
+            </aside>
+        </aside>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Playfair+Display:ital,wght@0,400;0,900;1,400&family=Roboto:wght@400;500;700&family=Yellowtail&display=swap');
+
+
+nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 3.438rem;
+    background-color: white;
+    width: 4.5rem;
+    z-index: 200;
+    padding-top: 0.313rem;
+}
+
+
+.sidebar-link {
+    height: 4.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.sidebar-link:hover{
+    background-color: #ebebeb;
+}
+
+
+.sidebar-link img {
+    height: 1.5rem;
+    margin-bottom: 0.313rem;
+}
+
+
+.sidebar-link p {
+    font-size: 0.625rem;
+}
