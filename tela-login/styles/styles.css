@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Configurações do body*/
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #77ffc0;
+}
+
+
+.left-login h1, p {
+    font-size: 3vw;
+}
+
+.image-animation {
+    width: 35vw;
+}
+
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cart-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.875rem 2.188rem;
+    background-color: #2f2841;
+    border-radius: 1.25rem;
+    box-shadow: 0rem 0.625rem 2.5rem #00000056;
+}
+
+
+.cart-login h2 {
+    color: #00ff88;
+    font-size: 2.188rem;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+form {
+    width: 100%;
+}
+
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0.625rem 0rem;
+}
+
+
+.textfield label {
+    width: 100%;
+    color: #f0ffffde;
+    margin-bottom: 0.625rem;
+}
+
+
+.textfield input {
+    width: 100%;
+    border: none;
+    border-radius: 0.625rem;
+    padding: 0.938rem;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 0.75rem;
+    box-shadow: 0rem 0.625rem 2.5rem #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+
+.textfield input::placeholder {
+    color: #f0ffff94;
+}
+
+
+.btn-login {
+    width: 100%;
+    padding: 0.625rem 0rem;
+    margin-top: 1.563rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.188rem;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0rem 0.625rem 2.5rem -75rem #00ff0052;
+}
+/* Configurações do body*/
+
+
+@media only screen and (max-width: 53.125rem) {
+    .cart-login {
+        width: 85%;
+    }
+}
+
+
+@media only screen and (max-width: 40.625rem) {
+    main {
+        flex-direction: column;
+    }
+
+    
+    .left-login h1, p{
+        display: none;
+    }
+
+
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .left-login img {
+        width: 50vw;
+    }
+
+    .cart-login {
+        width: 90%;
+    }
+}
