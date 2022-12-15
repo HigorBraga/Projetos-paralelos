@@ -1,0 +1,100 @@
+.navbar {
+    width: 75rem;
+    height: 4.688rem;
+    margin: auto;
+}
+
+
+.icon {
+    width: 12.5rem;
+    float: left;
+    height: 4.375rem;
+}
+
+
+.logo {
+    color: #ff7200;
+    font-size: 2.188rem;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-top: 0.25rem;
+    margin-top: 0.313rem;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul {
+    display: flex;
+}
+
+
+li {
+    list-style: none;
+    margin-left: 3.875rem;
+    margin-top: 1.688rem;
+    font-size: 0.875rem;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20.625rem;
+}
+
+
+.srch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 12.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: 0.063rem solid #ff7200;
+    margin-top: 0.875rem;
+    color: #fff;
+    border-right: none;
+    font-size: 1rem;
+    padding: 0.625rem;
+    border-bottom-left-radius: 0.313rem;
+    border-top-left-radius: 0.313rem;
+}
+
+
+.btn {
+    width: 6.25rem;
+    height: 2.5rem;
+    background: #ff7200;
+    border: 0.125rem solid #ff7200;
+    margin-top: 0.875rem;
+    color: #fff;
+    font-size: 1rem;
+    border-bottom-right-radius: 0.313rem;
+    border-top-right-radius: 0.313rem;
+}
+
+
+.btn:focus, .srch:focus {
+    outline: none;
+}
