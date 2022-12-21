@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: blueviolet;
+    color: white;
+
+
+
+    /* Position Static = Já vem de forma padrão dos navegadores  */
+
+
+    /* Position = relative = Ele é relativo ao elemento Pai */
+}
+
+
+.filho-relative {
+    background-color: red;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    bottom: 20px;
+    right: 50px;
+}

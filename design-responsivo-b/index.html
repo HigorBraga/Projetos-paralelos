@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsivo</title>
+    <link rel="stylesheet" href="/estilos/style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="section menu"></div>
+        <div class="section header">
+            <div class="foto">
+                <picture>
+                    <source media="(max-width: 750px)" srcset="images/photo-tall.jpg" type="image/jpg">
+                    <source media="(max-width: 1050px)" srcset="images/photo-small.jpg" type="image/jpg">
+                    <img src="images/photo-big.jpg" alt="Foto grande">
+                </picture>
+            </div>
+        </div>
+
+        
+        <div class="section content">
+            <div class="illustration">
+                <img src="images/illustration-small.png" alt=""
+                srcset="images/illustration-small.png 1x,
+                images/illustration-big.png 2x" style="max-width: 500px;">
+            </div>
+        </div>
+        <div class="section sign-up">
+            <img src="images/sign-up.svg" alt="sign-up">
+        </div>
+        <div class="section feature-1">
+            <img src="images/feature.svg" alt="feature">
+        </div>
+        <div class="section feature-2">
+            <img src="images/feature.svg" alt="feature">
+        </div>
+        <div class="section feature-3">
+            <img src="images/feature.svg" alt="feature">
+        </div>
+    </div>
+</body>
+</html>

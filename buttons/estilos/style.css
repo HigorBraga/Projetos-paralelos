@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.buttons {
+    margin: 2rem;
+    text-align: center;
+}
+
+.subscribe-button {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #e05858;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+
+.join-button {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    color: #3d3de0;
+    border-color: #3d3de0;
+    border-style: solid;
+    transition: 1s;
+}
+
+
+
+.join-button:hover {
+    background-color: #3d3de0;
+    color: white;
+}
+
+.tweet-button {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #5c89e9;
+    color: white;
+    border: none;;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+
+
+.tweet-button:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
+}
+
+.subscribe-button:hover, .join-button:hover, .tweet-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.subscribe-button:active, .join-button:active, .tweet-button:active {
+    cursor: pointer;
+    opacity: 0.5;
+}
