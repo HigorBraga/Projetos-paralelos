@@ -1,0 +1,110 @@
+/* Settings of main */
+
+.small-container {
+    max-width: 67.5rem;
+    margin: auto;
+    padding: 0rem 1.563rem 0rem 1.563rem;
+}
+
+/*------------------- cart items details -------------------*/
+
+.cart-page {
+    margin: 5rem auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.small {
+    font-size: 0.75rem;
+}
+
+
+th {
+    text-align: left;
+    padding: 0.313rem;
+    color: #fff;
+    background-color: #ff523b;
+    font-weight: normal;
+}
+
+
+td {
+    padding: 0.625rem 0.313rem;
+}
+
+
+td input {
+    width: 4.375rem;
+    height: 1.875rem;
+    padding: 0.313rem;
+}
+
+
+td a {
+    color: #ff523b;
+    font-size: 0.75rem;
+}
+
+
+td img {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.625rem;
+}
+/*------------------- cart items details -------------------*/
+
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.total-price table {
+    border-top: 0.188rem solid #ff523b;
+    width: 100%;
+    max-width: 25rem;
+}
+
+
+td:last-child {
+    text-align: right;
+}
+
+
+th:last-child {
+    text-align: right;
+
+}
+/* Settings of main */
+
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */
+
+@media only screen and (max-width: 40.625rem) {
+
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+
+    .cart-info .name {
+        display: none;
+    }
+}
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */

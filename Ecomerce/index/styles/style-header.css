@@ -1,0 +1,165 @@
+/* Settings of Menu */
+
+header {
+    background-image: radial-gradient(#fff, #ffd6d6);
+}
+
+
+header .row {
+    margin-top: 4.375rem;
+}
+
+
+.container {
+    max-width: 81.25rem;
+    margin: auto;
+    padding: 0rem 1.563rem 0rem 1.563rem;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+
+.logo img{
+    width: 7.813rem;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+
+.bag-cart img {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 18.75rem;
+}
+
+
+.col-2 h1 {
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    margin: 1.563rem 0;
+    color: black;
+}
+
+
+p {
+    color: #555;
+}
+
+
+.btn-explore-now {
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 0.5rem 1.875rem;
+    margin: 1.875rem 0;
+    border-radius: 1.875rem;
+    transition: 1s;
+}
+
+
+.btn-explore-now:hover {
+    background-color: #563434;
+}
+
+
+.col-2 img {
+    max-width: 100%;
+    padding: 3.125rem 0;
+}
+/* Settings of Menu */
+
+
+/* Settings of Menu-Hamburger */
+
+.menu-icon {
+    width: 1.75rem;
+    margin-left: 1.25rem;
+    display: none;
+}
+/* Settings of Menu-Hamburger */
+
+
+/* Configurações media query for Menu-Hamburger */
+
+@media only screen and (max-width: 53.125rem) {
+
+   nav ul {
+    position: absolute;
+    top: 4.375rem;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 1s;
+   }
+
+   nav ul li {
+    display: block;
+    margin: 0.625rem 3.125rem 0.625rem;
+   }
+
+   nav ul li a {
+    color: #fff;
+   }
+
+   .menu-icon {
+    display: inline-block;
+    cursor: pointer;
+   }
+}
+
+/* Configurações media query for Menu-Hamburger */
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */
+
+@media only screen and (max-width: 40.625rem) {
+
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+}
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */

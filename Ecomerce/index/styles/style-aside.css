@@ -1,0 +1,81 @@
+/* ------------- Testimonial -------------*/
+
+.testimonial {
+    padding-top: 6.25rem;
+}
+
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 2.5rem 1.25rem;
+    box-shadow: 0 0 1.25rem 0rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.testimonial .col-3 img {
+    width: 3.125rem;
+    margin-top: 1.25rem;
+    border-radius: 50%;
+}
+
+
+.testimonial .col-3:hover {
+    transform: translateY(-0.625rem);
+}
+
+
+.col-3 p {
+    font-size: 0.75rem;
+    margin: 0.75rem 0;
+    color: #777;
+}
+
+
+.testimonial .col-3 h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 1rem;
+}
+/* ------------- Testimonial -------------*/
+
+/* ------------- Brands -------------*/
+
+.brands {
+    margin: 6.25rem auto;
+}
+
+
+.col-5 {
+    width: 10rem;
+}
+
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+
+.col-5 img:hover {
+    filter: grayscale(0);
+}
+/* ------------- Brands -------------*/
+
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */
+
+@media only screen and (max-width: 40.625rem) {
+
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+}
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */

@@ -1,0 +1,86 @@
+footer {
+    background-color: #000;
+    color: #8a8a8a;
+    font-size: 0.875rem;
+    padding: 3.75rem 0rem 1.25rem;
+}
+
+
+footer p {
+    color: #8a8a8a;
+}
+
+
+footer h3 {
+    color: #fff;
+    margin-bottom: 1.25rem;
+}
+
+
+.footer-col-1, .footer-col-2,
+.footer-col-3, .footer-col-4 {
+    min-width: 15.625rem;
+    margin-bottom: 1.25rem;
+}
+
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+
+.app-logo img {
+    margin-top: 1.25rem;
+    width: 8.75rem;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+
+.footer-col-2 img {
+    width: 11.25rem;
+    margin-bottom: 1.25rem;
+}
+
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+footer hr {
+    border: none;
+    background-color: #d5d5d5;
+    height: 0.063rem;
+    margin: 1.25rem 0;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */
+
+@media only screen and (max-width: 40.625rem) {
+
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+}
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */

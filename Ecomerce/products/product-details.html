@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="styles-products/style.general.css">
+    <link rel="stylesheet" href="styles-products/style-header.css">
+    <link rel="stylesheet" href="styles-products/style-main.css">
+    <link rel="stylesheet" href="styles-products/style-footer.css">
+</head>
+<body>
+    <header>
+        <section class="container">
+            <section class="navbar">
+                <picture class="logo">
+                    <img src="/images/header/logo.png" alt="image logo RedStore">
+                </picture>
+
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+
+                <picture class="bag-cart">
+                    <img src="/images/header/cart.png" alt="image bag">
+                    <img class="menu-icon" src="/images/header/menu.png" alt="hambuger-menu-icon" onclick="menutoggle()">
+                </picture>
+            </section>
+        </section>
+    </header>
+
+    <main>
+        <!------------------- single products details ------------------->
+
+        <section class="small-container single-product">
+            <article class="row">
+
+                <div class="col-2">
+                    <img src="/images/main/gallery-1.jpg" alt="gallery-1" width="100%" id="ProductImg">
+                
+
+                    <div class="small-img-row">
+                        <picture class="small-img-col">
+                            <img src="/images/main/gallery-1.jpg" alt="gallery-1" width="100%" class="small-img">
+                        </picture>
+
+                        <picture class="small-img-col">
+                            <img src="/images/main/gallery-2.jpg" alt="gallery-1" width="100%" class="small-img">
+                        </picture>
+
+                        <picture class="small-img-col">
+                            <img src="/images/main/gallery-3.jpg" alt="gallery-1" width="100%" class="small-img">
+                        </picture>
+
+                        <picture class="small-img-col">
+                            <img src="/images/main/gallery-4.jpg" alt="gallery-1" width="100%" class="small-img">
+                        </picture>
+                    </div>
+
+                </div>
+
+                <div class="col-2">
+                    <p>Home / T-Shirt</p>
+                    <h1>Red Printd T-Shirt by HRX</h1>
+                    <h4>$50.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <input type="number" name="the amount" id="the amount">
+                    <button class="btn-add-cart" type="submit">Add To Cart</button>
+
+                    <h3>Product Details</h3>
+                    <br>
+                    <p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair of shorts for your morning workout or a denims for an evening out with the guys.</p>
+                </div>
+            </article>
+        </section>
+
+        <!------------------- title ------------------->
+        <section class="small-container">
+            <article class="row row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+            </article>
+        </section>
+        <!------------------- title ------------------->
+
+        <section class="small-container">
+            
+            <article class="row">
+                <picture class="col-4">
+                    <img src="/images/main/product-9.jpg" alt="product-9">
+                    <h4>Black Sportx Watch</h4>
+                    <p>$135.00</p>
+                </picture>
+                <picture class="col-4">
+                    <img src="/images/main/product-10.jpg" alt="product-10">
+                    <h4>Black HRX Shoes</h4>
+                    <p>$50.00</p>
+                </picture>
+                <picture class="col-4">
+                    <img src="/images/main/product-11.jpg" alt="product-11">
+                    <h4>Gray Nike Shoes</h4>
+                    <p>$55.00</p>
+                </picture>
+                <picture class="col-4">
+                    <img src="/images/main/product-12.jpg" alt="product-12">
+                    <h4>HRX Black Trackpants</h4>
+                    <p>$75.00</p>
+                </picture>
+            </article>
+        </section>
+
+        <!------------------- single products details ------------------->
+    </main>
+
+    <footer>
+        <section class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <picture class="app-logo">
+                        <img src="/images/footer/play-store.png" alt="logo play-store">
+                        <img src="/images/footer/app-store.png" alt="logo app-store">
+                    </picture>
+                </div>
+
+                <div class="footer-col-2">
+                    <picture>
+                        <img src="/images/footer/logo-white.png" alt="logo-redstore-white">
+                    </picture>
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affitiate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>GitHub</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Easy Tutorials</p>
+        </section>
+    </footer>
+
+    <!------------------- js for toglle menu ------------------->
+
+    <script src="/index/scripts/script.js"></script>
+    <!------------------- js for toglle menu ------------------->
+</body>
+</html>

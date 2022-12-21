@@ -1,0 +1,180 @@
+/* Settings of main */
+
+.small-container {
+    max-width: 67.5rem;
+    margin: auto;
+    padding: 0rem 1.563rem 0rem 1.563rem;
+}
+
+
+.row-2 {
+    justify-content: space-between;
+    margin: 6.25rem auto 3.125rem;
+}
+
+
+select {
+    border: 0.063rem solid #ff523b;
+    padding: 0.313rem;
+}
+
+
+select:focus {
+    outline: none;
+}
+
+
+.btn-add-cart {
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 0.5rem 1.875rem;
+    margin: 1.875rem 0;
+    border-radius: 1.875rem;
+    transition: 1s;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-add-cart:hover {
+    background-color: #563434;
+}
+
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 0.625rem;
+    min-width: 12.5rem;
+    margin-bottom: 3.125rem;
+    transition: transform 0.5s;
+}
+
+
+.col-4:hover {
+    transform: translateY(-0.313rem);
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+
+.col-4 p {
+    font-size: 0.875rem;
+}
+
+
+.page-btn {
+    margin: 0rem auto 5rem;
+}
+
+
+.page-btn button {
+    display: inline-block;
+    border: 0.063rem solid #ff523b;
+    margin-left: 0.625rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    cursor: pointer;
+}
+
+
+.page-btn button:hover {
+    background-color: #ff523b;
+    color: #fff;
+}
+/* Settings of main */
+
+/* single product details */
+
+.single-product {
+    margin-top: 5rem;
+}
+
+
+.single-product .col-2 img {
+    padding: 0rem;
+}
+
+
+.single-product .col-2 {
+    padding: 1.25rem;
+}
+
+
+.single-product h4 {
+    margin: 1.25rem 0;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+
+
+.single-product select {
+    display: block;
+    padding: 0.625rem;
+    margin-top: 1.25rem;
+}
+
+
+.single-product input {
+    width: 4.375rem;
+    height: 2.5rem;
+    padding: 0.625rem;
+    font-size: 1.25rem;
+    margin-right: 0.625rem;
+    border: 0.063rem solid #ff523b;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+
+.small-img-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+/* single product details */
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */
+
+@media only screen and (max-width: 40.625rem) {
+
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+
+    .single-product .row {
+        text-align: left;
+    }
+
+    .single-product .col-2 {
+        padding: 1.25rem 0;
+    }
+
+    .single-product h1 {
+        font-size: 1.625rem;
+        line-height: 2rem;
+}
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */

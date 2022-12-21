@@ -1,0 +1,128 @@
+/* Settings of main */
+
+.small-container {
+    max-width: 67.5rem;
+    margin: auto;
+    padding: 0rem 1.563rem 0rem 1.563rem;
+}
+
+.categories {
+    margin: 4.375rem 0;
+}
+
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 15.625rem;
+    margin-bottom: 1.875rem;
+}
+
+
+.col-3 img {
+    max-width: 100%;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 0 auto 5rem;
+    position: relative;
+    line-height: 3.75rem;
+    color: #555;
+}
+
+
+h2::after {
+    content: "";
+    background: #ff523b;
+    width: 5rem;
+    height: 0.313rem;
+    border-radius: 0.313rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 0.625rem;
+    min-width: 12.5rem;
+    margin-bottom: 3.125rem;
+    transition: transform 0.5s;
+}
+
+
+.col-4:hover {
+    transform: translateY(-0.313rem);
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+
+.col-4 p {
+    font-size: 0.875rem;
+}
+
+/* ------------- Offer -------------*/
+.offer {
+    background-image: radial-gradient(#fff, #ffd6d6);
+    margin-top: 5rem;
+    padding: 1.875rem;
+}
+
+
+.col-2 .offer-img {
+    padding: 3.125rem;
+}
+
+
+.col-2 p {
+    font-size: 0.75rem;
+    color: #555;
+}
+
+
+.btn-buy-now {
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 0.5rem 1.875rem;
+    margin: 1.875rem 0;
+    border-radius: 1.875rem;
+    transition: 1s;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-buy-now:hover {
+    background-color: #563434;
+}
+/* ------------- Offer -------------*/
+
+/* Settings of main */
+
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */
+
+@media only screen and (max-width: 40.625rem) {
+
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+}
+
+/* Configurações media query for Menu-Hamburger less than 600 screen size */
