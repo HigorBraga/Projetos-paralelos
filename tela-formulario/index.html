@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Formulário</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <header></header>
+
+
+    <main>
+        <section class="container">
+            <div action="" class="formulario">
+                <div class="botao-box">
+                    <div id="btn"></div>
+                    <button type="button" class="botoes" onclick="login()">
+                        Log In
+                    </button>
+                    <button type="button" class="botoes" onclick="register()">
+                        Register
+                    </button>
+                </div>
+
+                <form action="" id="login" class="grupos-inputs">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>Remeber Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
+
+
+                <form action="" id="register" class="grupos-inputs">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span> I agree to the terms & conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+
+
+                <section class="social-icons">
+                    <img src="/imagens/icone-github.png" alt="Icone do Github">
+                    <img src="/imagens/icone-twitter.png" alt="Icone do Twitter">
+                    <img src="/imagens/icone-google.png" alt="Icone do Google">
+                </section>
+            </div>
+        </section>
+    </main>
+
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
