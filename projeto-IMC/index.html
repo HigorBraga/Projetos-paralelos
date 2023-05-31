@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto IMC</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <header></header>
@@ -16,26 +16,43 @@
             <div id="titulo">
                 <h2>Calculadora - IMC</h2>
             </div>
-            <form action="#" autocomplete="on">
-                <div class="grupos-divs">
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome" required placeholder="nome" autocomplete="name">
+            <form action="/assets/scripts/script.js" autocomplete="on">
+                <div class="grupos">
+                    <div class="grupos-labels">
+                        <label for="nome">Nome:</label>
+                    </div>
+                    <div class="grupos-inputs">
+                        <input type="text" name="nome" id="nome" required placeholder="nome" autocomplete="name">
+                    </div>
+                </div>
+                <div class="grupos">
+                    <div class="grupos-labels">
+                        <label for="altura">Altura:</label>
+                    </div>
+                    <div class="grupos-inputs">
+                        <input type="number" name="altura" id="altura" required placeholder="altura">
+                    </div>
                 </div>
 
-                <div class="grupos-divs">
-                    <label for="altura">Altura:</label>
-                    <input type="number" name="altura" id="altura" required placeholder="altura">
+                <div class="grupos">
+                    <div class="grupos-labels">
+                        <label for="peso">Peso:</label>
+                    </div>
+
+                    <div class="grupos-inputs">
+                        <input type="number" name="peso" id="peso" required placeholder="peso">
+                    </div>
                 </div>
 
-                <div class="grupos-divs">
-                    <label for="peso">Peso:</label>
-                    <input type="number" name="peso" id="peso" required placeholder="peso">
-                </div>
 
-                <button type="button">Calcular</button>
+
+                <div class="grupo-botoes">
+                    <button type="button" onclick="calcularImc()">Calcular</button>
+                    <button type="reset" onclick="limpar()">Limpar</button>
+                </div>
             </form>
 
-            <section>
+            <section id="secaoresposta">
                 <p id="resposta"></p>
             </section>
         </section>
@@ -43,6 +60,6 @@
 
 
     <footer></footer>
-    <script src="/scripts/script.js"></script>
+    <script src="assets/scripts/script.js"></script>
 </body>
 </html>
